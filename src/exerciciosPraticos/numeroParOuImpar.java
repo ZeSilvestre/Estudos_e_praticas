@@ -13,12 +13,12 @@ public class numeroParOuImpar {
             numero = sc.nextDouble();
             if (numero % 2 == 0) {
                 System.out.println("O número é par");
-            }else {
+            } else {
                 System.out.println("O número é impar");
             }
             System.out.println("Deseja continuar? (s/n)");
             resposta = sc.next();
-        }while (!resposta.equalsIgnoreCase("n"));
+        } while (!resposta.equalsIgnoreCase("n"));
         sc.close();
     }
 }
